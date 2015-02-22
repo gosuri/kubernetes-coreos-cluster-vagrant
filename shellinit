@@ -1,0 +1,6 @@
+#!/bin/bash
+set -e
+
+echo "export ETCDCTL_PEERS=http://172.17.8.101:4001"
+echo "export FLEETCTL_ENDPOINT=http://172.17.8.101:4001"
+echo "export KUBERNETES_MASTER=http://172.17.8.101:8080"
