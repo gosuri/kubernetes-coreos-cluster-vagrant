@@ -10,7 +10,7 @@ Vagrant.require_version ">= 1.6.0"
 MASTER_YAML = File.join(File.dirname(__FILE__), "master.yaml")
 NODE_YAML   = File.join(File.dirname(__FILE__), "node.yaml")
 
-$num_node_instances     = ENV['NUM_INSTANCES']                            || 2
+$num_node_instances     = ENV['NUM_INSTANCES']                            || 5
 $update_channel         = ENV['CHANNEL']                                  || 'alpha'
 $coreos_version         = ENV['COREOS_VERSION']                           || 'latest'
 $enable_serial_logging  = (ENV['SERIAL_LOGGING'].to_s.downcase == 'true')
